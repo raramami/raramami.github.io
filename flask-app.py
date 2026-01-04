@@ -1,5 +1,5 @@
 import re
-from tkinter import NO
+#from tkinter import NO
 from flask import Flask, redirect, render_template, request ,redirect,send_file
 from extractors.berlin import extractors_berlin_jobs
 from extractors.wwr import extractors_wwr_jobs
